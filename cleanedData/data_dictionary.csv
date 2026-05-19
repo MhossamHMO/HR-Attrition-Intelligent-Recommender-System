@@ -1,0 +1,36 @@
+Feature,Type,Range / Values,Description
+Age,Numerical (Continuous),18 – 60,Employee age in years
+DailyRate,Numerical (Continuous),102 – 1499,Daily pay rate (currency units)
+DistanceFromHome,Numerical (Continuous),1 – 29,Distance in km between home and office
+Education,Ordinal (1–5),1 – 5,1=Below College … 5=Doctor
+EnvironmentSatisfaction,Ordinal (1–4),1 – 4,1=Low … 4=Very High (workplace environment)
+HourlyRate,Numerical (Continuous),30 – 100,Hourly pay rate
+JobInvolvement,Ordinal (1–4),1 – 4,1=Low … 4=Very High (engagement level)
+JobLevel,Ordinal (1–5),1 – 5,1=Junior … 5=Executive (seniority)
+JobSatisfaction,Ordinal (1–4),1 – 4,1=Low … 4=Very High (role satisfaction)
+MonthlyIncome,Numerical (Continuous),Capped at 1st–99th pct,Gross monthly salary
+MonthlyRate,Numerical (Continuous),2094 – 26999,Monthly rate (may differ from actual income)
+NumCompaniesWorked,Numerical (Discrete),0 – 9,Number of companies employee has worked at
+PercentSalaryHike,Numerical (Continuous),11 – 25,Last year salary increase percentage
+PerformanceRating,Ordinal (1–4),3 – 4,"3=Excellent, 4=Outstanding (only 2 values present)"
+RelationshipSatisfaction,Ordinal (1–4),1 – 4,1=Low … 4=Very High (manager relationship)
+StockOptionLevel,Ordinal (0–3),0 – 3,0=None … 3=High (vesting level)
+TotalWorkingYears,Numerical (Continuous),Capped at 1st–99th pct,Career experience in years
+TrainingTimesLastYear,Numerical (Discrete),0 – 6,Number of training sessions attended last year
+WorkLifeBalance,Ordinal (1–4),1 – 4,1=Bad … 4=Best
+YearsAtCompany,Numerical (Continuous),Capped at 1st–99th pct,Years with current employer
+YearsInCurrentRole,Numerical (Continuous),0 – 18,Years in current role
+YearsSinceLastPromotion,Numerical (Continuous),0 – 15,Years since most recent promotion
+YearsWithCurrManager,Numerical (Continuous),0 – 17,Years working under current manager
+Gender,Binary (0/1),"0 = Female, 1 = Male",Employee gender
+OverTime,Binary (0/1),"0 = No, 1 = Yes",Whether employee works overtime
+BusinessTravel_Travel_Frequently,Binary (0/1),0/1,Employee travels frequently (ref: Non-Travel)
+BusinessTravel_Travel_Rarely,Binary (0/1),0/1,Employee travels rarely (ref: Non-Travel)
+Department_Research & Development,Binary (0/1),0/1,R&D department (ref: Human Resources)
+Department_Sales,Binary (0/1),0/1,Sales department (ref: Human Resources)
+MaritalStatus_Married,Binary (0/1),0/1,Married (ref: Divorced)
+MaritalStatus_Single,Binary (0/1),0/1,Single (ref: Divorced)
+CompensationGap,Numerical (Continuous),Varies (can be negative),MonthlyIncome minus median income for same JobLevel; negative = underpaid vs. peers
+SatisfactionIndex,Numerical (Continuous),1.0 – 4.0,"Mean of EnvironmentSatisfaction, JobSatisfaction, RelationshipSatisfaction"
+TenureToAgeRatio,Numerical (Continuous),0.0 – ~0.9,YearsAtCompany / Age; higher = more career embeddedness
+IncomePerYearAtCompany,Numerical (Continuous),Varies,MonthlyIncome / (YearsAtCompany + 1); detects stagnant salary growth over tenure
