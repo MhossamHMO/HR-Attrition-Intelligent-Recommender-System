@@ -12,23 +12,6 @@ The system answers one question: **which employees are most likely to leave, and
 
 ---
 
-## Project Structure
-
-```
-├── phase1_eda.ipynb                          # Data inspection & exploratory analysis
-├── phase2_data_preparation.ipynb             # Cleaning, feature engineering, encoding, scaling
-├── phase3_modelling.ipynb                    # Model training, evaluation, hyperparameter tuning
-├── phase4_explainability.ipynb               # SHAP analysis, segmentation, business insights
-├── app.py                                    # Streamlit IDSS prototype
-├── best_model_logistic_regression_tuned.pkl  # Saved final model
-├── X_train.csv                               # Processed training features
-├── X_test.csv / y_train.csv / y_test.csv     # Train/test splits
-├── data_dictionary.csv                       # Feature definitions
-└── phase4_report.docx                        # Business insights report (Phase 4 deliverable)
-```
-
----
-
 ## Pipeline Summary
 
 | Phase | What was done |
